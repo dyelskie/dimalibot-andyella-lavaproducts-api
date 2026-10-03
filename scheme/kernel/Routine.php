@@ -474,7 +474,7 @@ if ( ! function_exists('handle_cors'))
 	 */
 	function handle_cors()
 	{
-		$allow_origin = 'https://dimalibot-andyella-lavaproducts.onrender.com';
+		$allow_origin = config_item('allow_origin');
 		$origin = $_SERVER['HTTP_ORIGIN'] ?? '';
 
 		if (is_array($allow_origin)) {
