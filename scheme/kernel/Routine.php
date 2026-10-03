@@ -474,7 +474,7 @@ if ( ! function_exists('handle_cors'))
 	 */
 	function handle_cors()
 	{
-		$allow_origin = 'http://localhost:5173';
+		$allow_origin = 'https://dimalibot-andyella-lavaproducts.onrender.com';
 		$origin = $_SERVER['HTTP_ORIGIN'] ?? '';
 
 		if (is_array($allow_origin)) {

@@ -145,7 +145,7 @@ $config['users_table'] = 'users';
 | a browser, so set your real domain in production.
 |
 */
-$config['allow_origin'] = 'http://localhost:5173';
+$config['allow_origin'] = 'https://dimalibot-andyella-lavaproducts.onrender.com';
 
 /*
 |--------------------------------------------------------------------------
