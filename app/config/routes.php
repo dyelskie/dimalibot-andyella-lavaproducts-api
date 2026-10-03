@@ -62,7 +62,7 @@ $router->group(['prefix' => 'api'], function ($router) {
     $router->get('auth/me',        'ApiController::me');
     $router->post('auth/refresh',  'ApiController::refresh');
     $router->post('auth/logout',   'ApiController::logout');
-    $router->get('/auth/me', 'AuthController::me');
+    $router->get('auth/me', 'AuthController::me');
 
     // Products (login required; write actions are admin only)
     $router->get('products',          'ProductController::index');
